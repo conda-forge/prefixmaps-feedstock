@@ -1,5 +1,5 @@
 {% set name = "prefixmaps" %}
-{% set version = "0.2.5" %}
+{% set version = "0.2.6" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/prefixmaps-{{ version }}.tar.gz
-  sha256: aaccd2425ade2ea97a502c58be49fe8f3536e3d5e919712ae0358a39fc800799
+  sha256: 7421e1244eea610217fa1ba96c9aebd64e8162a930dc0626207cd8bf62ecf4b9
 
 build:
   entry_points:
